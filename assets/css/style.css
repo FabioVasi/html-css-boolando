@@ -72,25 +72,32 @@ main{
 .section_up{
 
 }
-.maglietta{
+.col:hover .frontimg{
+    display: none;
+}
+.col: .rearimg{
+    display: block;
+}
+
+.frontimg{
     height: 600px;
     width: 380px
 }
-.gonna{
+.rearimg{
     height: 600px;
-    width: 380px
+    width: 380px;
+    display: none;
 }
-.vestito{
-    height: 600px;
-    width: 380px
-}
-.cuore:hover{
-    color: red;
+
+.cuore{
    background-color: white;
    height: 50px;
    width: 50px;
    font-size: 40px;
    text-align: center;
+}
+.cuore:hover{
+    color: red;
 }
 .sconto{
     background-color: red;
@@ -108,21 +115,7 @@ main{
     padding: 2px 8px;
     font-weight: bold;
 }
-.levis{
-    height: 600px;
-    width: 380px;
-    display: none;
-}
-.guess{
-    height: 600px;
-    width: 380px;
-    display: none;
-}
- .dress{
-    height: 600px;
-    width: 380px;
-    display: none;
-}
+
 
 
 .section_bottom{
