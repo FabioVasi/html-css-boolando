@@ -72,17 +72,61 @@ main{
 .section_up{
 
 }
-.col_levis{
-    position: relative;
+.maglietta{
+    height: 600px;
+    width: 380px
 }
-.col_guess{
-    
+.gonna{
+    height: 600px;
+    width: 380px
 }
- .col_dress{
-    
+.vestito{
+    height: 600px;
+    width: 380px
+}
+.cuore{
+   background-color: white;
+   height: 50px;
+   width: 50px;
+   font-size: 40px;
+   text-align: center;
+}
+.sconto{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+.sostenibilità{
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    height: 20px;
+    padding: 2px 8px;
+    font-weight: bold;
+}
+.levis{
+    height: 600px;
+    width: 380px;
+    display: none;
+}
+.guess{
+    height: 600px;
+    width: 380px;
+    display: none;
+}
+ .dress{
+    height: 600px;
+    width: 380px;
+    display: none;
 }
 
 
+.section_bottom{
+    padding-top: 4rem;
+}
 footer{
     background-color: #1a1a1a;
     color: white;
