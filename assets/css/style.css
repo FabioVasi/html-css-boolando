@@ -75,7 +75,7 @@ main{
 .col:hover .frontimg{
     display: none;
 }
-.col: .rearimg{
+.col:hover .rearimg{
     display: block;
 }
 
